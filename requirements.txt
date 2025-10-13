@@ -1,17 +1,21 @@
-streamlit
-python-dotenv
-openai
-google-api-python-client
-google-auth
-google-auth-oauthlib
+# Core dependencies
 fastapi==0.115.0
 uvicorn[standard]==0.30.5
+python-dotenv==1.0.1
+pydantic==2.9.2
+APScheduler==3.10.4
+protobuf==4.25.1
+
+# Google OAuth and API
+google-auth==2.34.0
 google-auth-oauthlib==1.2.1
 google-api-python-client==2.142.0
-google-auth==2.34.0
-python-dotenv==1.0.1
+
+# AI / ML
 tensorflow==2.12.0
 
-protobuf==4.25.1
-pydantic[email]
-apscheduler
+# OpenAI / Gemini
+openai==1.51.0
+
+# Streamlit (only if using UI locally)
+streamlit==1.39.0
